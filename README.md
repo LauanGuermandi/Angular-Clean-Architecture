@@ -1,27 +1,43 @@
-# Challenge
+# Bem vindo!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
+## Problema
+``` Usando Angular 8, crie um componente para exibir os nomes e notas dos alunos (do exercício anterior) ao iniciar a página por um HTTP request. ```
 
-## Development server
+> ## Princípios
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Single Responsibility Principle (SRP)
+* Open Closed Principle (OCP)
 
-## Code scaffolding
+> ## Design Patterns
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Factory
 
-## Build
+> ## Metodologias e Designs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* TDD
+* Clean Architecture
+* Conventional Commits
 
-## Running unit tests
+> ## Bibliotecas e Ferramentas
+* Typescript
+* Git
+* Faker
+* Husky
+* Lint Staged
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+> ## Setup
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+``` bash
+# Instalar depenências
+npm install
 
-## Further help
+# Executa o serviço de API fake para obtenção dos dados
+json-server --watch src/assets/data/students.json
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Executa a aplicação
+ng serve
+
+# Roda os testes
+npm run test
+```
