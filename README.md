@@ -41,3 +41,12 @@ ng serve
 # Roda os testes
 npm run test
 ```
+
+> ## Extras
+
+### Lint-staged + Husky + TsLint + Prettier
+* Nossos programas podem não estarem isentos de erros, mas se for consistente e legível, é mais fácil de depurar e manter o mesmo. Essas ferramentas destinam-se apenas a reduzir a chance de surgirem problemas em potencial. No final do dia, você e / ou sua equipe são os responsáveis ​​por garantir que seu código seja fácil de ler.
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/src/assets/images/commit.jpg?raw=true)
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/src/assets/images/push.jpg?raw=true)
