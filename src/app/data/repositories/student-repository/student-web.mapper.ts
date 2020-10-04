@@ -1,5 +1,5 @@
 import { StudentModel } from 'src/app/core/domain/student.model';
-import { Mapper } from '../../../core/base/mapper'
+import { Mapper } from '../../../core/base/mapper';
 import { StudentWebEntity } from './student-web.entity';
 
 export class StudentWebMapper extends Mapper <StudentWebEntity, StudentModel> {

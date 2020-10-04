@@ -1,6 +1,6 @@
-import { Mapper } from '../../../../core/base/mapper'
-import { StudentMockEntity } from './student-mock.entity'
-import { StudentModel } from './../../../../core/domain/student.model'
+import { Mapper } from '../../../../core/base/mapper';
+import { StudentMockEntity } from './student-mock.entity';
+import { StudentModel } from './../../../../core/domain/student.model';
 
 export class StudentMockMapper extends Mapper <StudentMockEntity, StudentModel> {
   mapFrom(param: StudentMockEntity): StudentModel {

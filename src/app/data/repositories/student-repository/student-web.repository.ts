@@ -15,23 +15,23 @@ import { StudentWebMapper } from './student-web.mapper';
 })
 
 export class StudentWebRepository extends StudentRepository {
-  url = environment.apiUrl + '/students'
+  url = environment.apiUrl + '/students';
 
   constructor(private httpClient: HttpClient) {
-      super()
+      super();
   }
 
   private mapper = new StudentWebMapper();
 
   // Headers
   httpOptions = {
-    headers: new HttpHeaders({ 
+    headers: new HttpHeaders({
       'Content-Type': 'application/json',
       'Cache-Control':  'no-cache, no-store, must-revalidate, post- check=0, pre-check=0',
-      'Pragma': 'no-cache',
-      'Expires': '0'
+      Pragma: 'no-cache',
+      Expires: '0'
      })
-  }
+  };
 
   // Obtem todos os alunos
   getAllStudents(): Observable<StudentModel> {
