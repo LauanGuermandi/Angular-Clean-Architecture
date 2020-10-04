@@ -14,22 +14,22 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
 
-  it('should create the app', () => {
+  it('Verificar se a aplicação foi criada', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'challenge'`, () => {
+  it(`Verificar se existe o título 'challenge'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('challenge');
   });
 
-  it('should render title', () => {
+  it('Verificar se o compoenent foi renderizado', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('challenge app is running!');
+    expect(compiled.querySelector('.app-student')).not.toBe(null);
   });
 });

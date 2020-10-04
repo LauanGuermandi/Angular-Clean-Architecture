@@ -15,7 +15,7 @@ import { StudentWebMapper } from './student-web.mapper';
 })
 
 export class StudentWebRepository extends StudentRepository {
-  url = environment.apiUrl + '/cars'
+  url = environment.apiUrl + '/students'
 
   constructor(private httpClient: HttpClient) {
       super()
