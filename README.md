@@ -1,6 +1,6 @@
 # Bem vindo!
 
-## Problema
+> ## Questão
 ``` Usando Angular 8, crie um componente para exibir os nomes e notas dos alunos (do exercício anterior) ao iniciar a página por um HTTP request. ```
 
 > ## Princípios
